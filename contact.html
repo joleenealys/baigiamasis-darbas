@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="lt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Kontaktai - Juoda Studija</title>
+</head>
+
+
+
+
+<body>
+    <header>
+        <div class="logo" onclick="window.location.href='index.html'">
+            <img src="images/juoda-studija-logo.png" alt="Juoda Studija Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">pagrindinis</a></li>
+                <li><a href="about.html">apie</a></li>
+                <li><a href="contact.html">kontaktai</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+
+
+    <main>
+        <h1 style="text-align: center;">susisiekite!</h1>
+        <form id="contact-form">
+            <input type="text" id="name" placeholder="vardas" required>
+            <input type="email" id="email" placeholder="el. paštas" required>
+            <textarea id="message" placeholder="žinutė" required></textarea>
+            <button class="submit-button" onclick="send-request">siųsti užklausą</button>
+        </form>
+    </main>
+
+
+
+
+    <footer>
+        <div class="footer-logo" onclick="window.location.href='index.html'">
+            <img src="images/juoda-studija-contact.png" alt="Juoda Studija Logo">
+        </div>
+        <div class="social-icons">
+            <a href="https://www.instagram.com/juodastudija/" target="_blank">
+                <img src="images/juoda-studija-instagram-icon.png" alt="Instagram">
+                    </a>
+            <a href="https://www.facebook.com/juodastudija/" target="_blank">
+                <img src="images/juoda-studija-facebook-icon.png" alt="Facebook">
+            </a>
+            <a href="https://www.pinterest.com/juodastudija/" target="_blank">
+                <img src="images/juoda-studija-pinterest-icon.png" alt="Pinterest">
+            </a>
+        </div>
+    </footer>
+
+
+    
+    <script src="script.js"></script>
+</body>
+</html>
